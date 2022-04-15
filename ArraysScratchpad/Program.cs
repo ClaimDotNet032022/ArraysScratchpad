@@ -70,6 +70,25 @@ foreach(string input in inputs)
 }
 
 
+////////////
+
+List<int> myList = new List<int>();
+myList.Add(6);
+myList.Add(21);
+myList.Add(45);
+
+myList[2] = 91;
+Console.WriteLine(myList[0]);
+
+for(int i = 1; i < myList.Count; ++i)
+{
+    Console.WriteLine(myList[i]);
+}
+
+foreach(int element in myList)
+{
+    Console.WriteLine(element);
+}
 
 
 
